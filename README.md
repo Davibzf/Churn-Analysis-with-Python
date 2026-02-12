@@ -1,4 +1,4 @@
-# 📊 Customer Churn Analysis — Data Analysis with Python  
+# 📊 Customer Churn Analysis
 # Autor: **Davi Bezerra Fraga**
 
 **Tecnologias:** Python • Pandas • Plotly • Jupyter Notebook
