@@ -37,7 +37,7 @@ O projeto simula um **caso real de análise de churn**, comum em empresas SaaS, 
 - Arquivo CSV  
 - Dataset utilizado:
 
-                   *cancelamentos.csv
+                   *customer_churn_data.csv
 
   
 ---
@@ -85,7 +85,7 @@ O projeto simula um **caso real de análise de churn**, comum em empresas SaaS, 
 ## 📈 Resultados
 
 - **Taxa inicial de cancelamento:** 56,7%  
-- **Após análises e tratamentos:** 18,4%  
+- **Após análises e tratamentos:** 15,78%
 - Identificação clara dos principais fatores de churn  
 - Simulação realista de impacto estratégico para empresas  
 
