@@ -110,6 +110,24 @@ O projeto simula um **caso real de análise de churn**, comum em empresas SaaS, 
 
 ---
 
+## 📁 Estrutura de Projeto
+    └── 📁 Churn-Analysis-with-Python/
+    │
+    ├── 📁 data/
+    │   └── 📄 customer_churn_data.csv
+    │
+    ├── 📁 ipynb/
+    │   └── 📄 Customer_Churn_Analysis.ipynb
+    │
+    ├── ⚙️ .gitignore
+    │
+    ├── 📄 LICENSE
+    │
+    └── 📝 README.md
+
+
+---
+
 ## 🌐 Portfólio
 
 https://davibezerrafraga.vercel.app/
