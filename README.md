@@ -1,9 +1,10 @@
 # 📊 Análise de Cancelamento de Clientes (Customer Churn)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-green)](https://pandas.pydata.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-5.0%2B-orange)](https://plotly.com/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)](https://jupyter.org/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
+[![Whisper](https://img.shields.io/badge/Whisper-OpenAI-black?logo=openai)](https://openai.com)
+[![Gemini](https://img.shields.io/badge/Gemini-API-blue?logo=google)](https://deepmind.google)
+[![pyttsx3](https://img.shields.io/badge/TTS-pyttsx3-green)]()
+[![Licença](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **Autor:** Davi Bezerra Fraga  
 **Tecnologias:** Python • Pandas • Plotly • Jupyter Notebook
