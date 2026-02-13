@@ -1,151 +1,114 @@
-# 📊 Customer Churn Analysis
-# Autor: **Davi Bezerra Fraga**
+# 📊 Análise de Cancelamento de Clientes (Customer Churn)
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-green)](https://pandas.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.0%2B-orange)](https://plotly.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)](https://jupyter.org/)
+
+**Autor:** Davi Bezerra Fraga  
 **Tecnologias:** Python • Pandas • Plotly • Jupyter Notebook
 
 ---
 
 ## 📌 Visão Geral
 
-Este projeto realiza uma **Análise de Dados completa** para identificar os principais fatores que levam ao **cancelamento de clientes (Customer Churn)** em uma empresa fictícia.
-
-O foco está em **entender padrões, reduzir taxas de cancelamento e apoiar decisões estratégicas baseadas em dados**, simulando um cenário real enfrentado por empresas de serviços e assinaturas.
+Este projeto realiza uma análise de dados completa para identificar os principais fatores que levam ao cancelamento de clientes (*churn*) em uma empresa fictícia de serviços. O objetivo é transformar dados brutos em insights estratégicos, simulando um cenário real de negócios para apoiar decisões orientadas à retenção de clientes.
 
 ---
 
-## 📊 Fonte dos Dados
+## 🎯 Objetivos
 
-Dataset fictício com características realistas de mercado, contendo informações demográficas, comportamentais e financeiras de clientes.
-
-O projeto simula um **caso real de análise de churn**, comum em empresas SaaS, telecomunicações e serviços por assinatura.
-
----
-
-## 🎯 Objetivos do Projeto
-
-- Analisar a taxa de cancelamento de clientes  
-- Identificar padrões associados ao churn  
-- Avaliar impacto de contratos, atrasos e suporte  
-- Reduzir o percentual de cancelamento com decisões orientadas por dados  
-- Demonstrar habilidades práticas em **Data Analysis com Python**
+- Calcular e interpretar a taxa de cancelamento
+- Identificar padrões comportamentais associados ao churn
+- Avaliar o impacto de variáveis como tipo de contrato, atrasos e contatos com suporte
+- Propor ações baseadas em dados para reduzir o churn
+- Demonstrar habilidades práticas em análise de dados com Python
 
 ---
 
-## 🔁 Pipeline de Análise de Dados
+## 🗺️ Etapas da Análise
 
-### 1️⃣ Aquisição dos Dados
-- Arquivo CSV  
-- Dataset utilizado:
-
-                   *customer_churn_data.csv
-
-  
----
-
-### 2️⃣ Entendimento da Base de Dados
-- Análise das variáveis  
-- Compreensão do problema de negócio  
-- Avaliação da relevância de cada coluna  
+1. **Aquisição dos Dados:** Carregamento da base `customer_churn_data.csv`
+2. **Limpeza e Tratamento:** Remoção de valores nulos e colunas irrelevantes (`CustomerID`)
+3. **Análise Exploratória (EDA):** Investigação de variáveis como idade, sexo, tempo de cliente, frequência de uso e ligações ao call center
+4. **Visualização:** Criação de gráficos interativos com Plotly para identificação de padrões de churn
+5. **Geração de Insights:** Recomendações estratégicas baseadas nos dados
 
 ---
 
-### 3️⃣ Tratamento de Dados
-- Remoção de valores nulos  
-- Eliminação de colunas irrelevantes  
-- Padronização da base para análise  
+## 🔑 Principais Resultados
+
+- **Taxa de churn inicial:** 56,7%
+- **Fatores críticos identificados:** contratos mensais, altos atrasos nos pagamentos e múltiplas ligações ao call center
+- **Simulação pós-análise:** aplicando filtros com base nos insights, a taxa de churn foi reavaliada para **15,78%**, demonstrando o impacto de estratégias direcionadas
 
 ---
 
-### 4️⃣ Análise Exploratória dos Dados (EDA)
-- Cálculo da taxa geral de cancelamento  
-- Análise por tipo de contrato  
-- Avaliação por tipo de assinatura  
-- Uso de métricas percentuais para tomada de decisão  
+## 🛠️ Tecnologias Utilizadas
+
+- **Python:** Linguagem principal
+- **Pandas:** Manipulação e análise de dados
+- **Plotly:** Visualizações interativas
+- **Jupyter Notebook:** Ambiente de desenvolvimento
 
 ---
 
-### 5️⃣ Análises Gráficas
-- Histogramas para cada variável  
-- Visualização de padrões de churn  
-- Identificação de fatores críticos, como:
+## 📁 Estrutura do Projeto
 
-                   *Dias de atraso
-                   *Ligações ao call center
-
-
----
-
-### 6️⃣ Tomada de Decisão Baseada em Dados
-- Remoção de contratos altamente problemáticos  
-- Filtragem de clientes com alto risco  
-- Reavaliação da taxa de churn após ajustes  
-
----
-
-## 📈 Resultados
-
-- **Taxa inicial de cancelamento:** 56,7%  
-- **Após análises e tratamentos:** 15,78%
-- Identificação clara dos principais fatores de churn  
-- Simulação realista de impacto estratégico para empresas  
+```
+📁 Churn-Analysis-with-Python/
+│
+├── 📁 data/
+│   └── 📄 customer_churn_data.csv
+│
+├── 📁 ipynb/
+│   └── 📄 Customer_Churn_Analysis.ipynb
+│
+├── 📄 README.md
+├── 📄 LICENSE
+└── ⚙️ .gitignore
+```
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🚀 Como Executar
 
-- Python  
-- Pandas  
-- Plotly  
-- Jupyter Notebook  
-
----
-
-## 🚀 Possíveis Aplicações
-
-- Análise de churn em empresas SaaS  
-- Estratégias de retenção de clientes  
-- Suporte à tomada de decisão empresarial  
-- Projetos acadêmicos  
-- Portfólio em Data Analysis / Data Science  
-
----
-
-## 📁 Estrutura de Projeto
-    └── 📁 Churn-Analysis-with-Python/
-    │
-    ├── 📁 data/
-    │   └── 📄 customer_churn_data.csv
-    │
-    ├── 📁 ipynb/
-    │   └── 📄 Customer_Churn_Analysis.ipynb
-    │
-    ├── ⚙️ .gitignore
-    │
-    ├── 📄 LICENSE
-    │
-    └── 📝 README.md
-
-
----
-
-## 🌐 Portfólio
-
-https://davibezerrafraga.vercel.app/
-
----
-
-## ⚠️ Aviso Legal
-
-Este projeto possui **fins educacionais e demonstrativos**.  
-Os dados e análises não devem ser utilizados diretamente em ambientes produtivos sem validação, adaptação ao contexto real e alinhamento estratégico.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Davibzf/Churn-Analysis-with-Python.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd Churn-Analysis-with-Python
+   ```
+3. Execute o notebook:
+   ```bash
+   jupyter notebook "ipynb/Customer_Churn_Analysis.ipynb"
+   ```
 
 ---
 
 ## 👨‍💻 Autor
 
 **Davi Bezerra Fraga**  
-Projeto desenvolvido para estudos em **Análise de Dados aplicada a negócios e retenção de clientes**.
+- 🔗 [LinkedIn](https://www.linkedin.com/in/davi-bezerra-fraga-319a49363/)
+- 🐙 [GitHub](https://github.com/Davibzf)
+- 📧 [Email](mailto:davibezerrafraga@gmail.com)
+- 🌐 [Portfólio](https://davibezerrafraga.vercel.app)
 
 ---
 
-⭐ Se este projeto te ajudou, considere deixar uma estrela!
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+---
+
+⭐ **Se este projeto foi útil para você, considere deixar uma estrela!**
+
+---
+
+## ⚠️ Aviso Legal
+
+Este projeto possui fins exclusivamente educacionais e demonstrativos. Os dados utilizados são fictícios e as análises não devem ser aplicadas diretamente em cenários reais sem a devida validação e adaptação ao contexto de negócio.
