@@ -1,10 +1,13 @@
 # 📊 Análise de Cancelamento de Clientes (Customer Churn)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
-[![Whisper](https://img.shields.io/badge/Whisper-OpenAI-black?logo=openai)](https://openai.com)
-[![Gemini](https://img.shields.io/badge/Gemini-API-blue?logo=google)](https://deepmind.google)
-[![pyttsx3](https://img.shields.io/badge/TTS-pyttsx3-green)]()
-[![Licença](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.14-3F4F75?style=flat-square&logo=plotly&logoColor=white)](https://plotly.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
+
+[![Status](https://img.shields.io/badge/status-Concluído-00C853?style=flat-square)]()
+[![Licença](https://img.shields.io/badge/licença-MIT-2196F3?style=flat-square)](LICENSE)
+[![Contribuições](https://img.shields.io/badge/contribuições-bemvindas-FF9800?style=flat-square)]()
 
 **Autor:** Davi Bezerra Fraga  
 **Tecnologias:** Python • Pandas • Plotly • Jupyter Notebook
